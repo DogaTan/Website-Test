@@ -1,0 +1,1670 @@
+{
+  "id": "f4c6eca2-db56-41c0-beec-71be96192c17",
+  "version": "2.0",
+  "name": "SE2226",
+  "url": "https://www.vivense.com/vivense-uye-girisi.html",
+  "tests": [{
+    "id": "87c9f954-65a1-457a-b56d-3b5259e8389a",
+    "name": "addBasketOneItem",
+    "commands": [{
+      "id": "f5d26dad-5296-4bf5-9573-4c6dfa34b006",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.vivense.com/ceremical-yukseklik-ayarli-laptop-sehpasi-modeli.html?recommended_by=instant_search&recommended_code=laptop%20masas%C4%B1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9cfba3a7-d083-4068-92d7-2e8b2b968aa0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1070x812",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "25220c4e-97aa-42ed-9593-913467645cf7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=SEPETE EKLE",
+      "targets": [
+        ["linkText=SEPETE EKLE", "linkText"],
+        ["css=.add-to-cart-btn", "css:finder"],
+        ["xpath=//a[contains(text(),'SEPETE EKLE')]", "xpath:link"],
+        ["xpath=//div[@id='sidebar-right']/div/div/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div/div/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'SEPETE EKLE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ecae8bd6-5a3a-46e6-9bbf-30bff26e5891",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-count",
+      "targets": [
+        ["css=.product-count", "css:finder"],
+        ["xpath=//h2[@id='cart_total_products']/span[2]", "xpath:idRelative"],
+        ["xpath=//h2/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'(1 ürün)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c830d2fa-827f-465f-b0e7-694e01130e1a",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.product-count",
+      "targets": [
+        ["css=.product-count", "css:finder"],
+        ["xpath=//h2[@id='cart_total_products']/span[2]", "xpath:idRelative"],
+        ["xpath=//h2/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'(1 ürün)')]", "xpath:innerText"]
+      ],
+      "value": "3000"
+    }, {
+      "id": "496b70fa-1e18-4c1a-947f-4497567fceba",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.product-count",
+      "targets": [
+        ["css=.product-count", "css:finder"],
+        ["xpath=//h2[@id='cart_total_products']/span[2]", "xpath:idRelative"],
+        ["xpath=//h2/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'(1 ürün)')]", "xpath:innerText"]
+      ],
+      "value": "(1 ürün)"
+    }, {
+      "id": "78bcacfc-b17f-4e03-8a67-556b8ef8b65b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "478e9056-4192-4ece-bec4-07e28139a67d",
+    "name": "RegisterSuccess (1)",
+    "commands": [{
+      "id": "70b46449-af79-4f0c-98b8-45e578484221",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.vivense.com/vivense-uye-kayit.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "be2e4c2b-e655-48f1-9788-20b61d6a0264",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1058x804",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e6c48fb0-37b6-4e70-8a4b-586bf818f9da",
+      "comment": "",
+      "command": "click",
+      "target": "id=firstname",
+      "targets": [
+        ["id=firstname", "id"],
+        ["name=firstname", "name"],
+        ["css=#firstname", "css:finder"],
+        ["xpath=//input[@id='firstname']", "xpath:attributes"],
+        ["xpath=//form[@id='registration']/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "452fa988-2022-4f3b-8b64-1b0811ae41ab",
+      "comment": "",
+      "command": "type",
+      "target": "id=firstname",
+      "targets": [
+        ["id=firstname", "id"],
+        ["name=firstname", "name"],
+        ["css=#firstname", "css:finder"],
+        ["xpath=//input[@id='firstname']", "xpath:attributes"],
+        ["xpath=//form[@id='registration']/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": "Doğa Tan"
+    }, {
+      "id": "b3c203c3-f025-42e2-8d7d-c46c1d23542f",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='registration']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae12fdc3-d6c1-479d-a6d5-1d3a99c8b591",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='registration']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[2]/input", "xpath:position"]
+      ],
+      "value": "doga.tannn@gmail.com"
+    }, {
+      "id": "76b2524d-af79-4026-942b-62b9e7b5e216",
+      "comment": "",
+      "command": "click",
+      "target": "id=tel",
+      "targets": [
+        ["id=tel", "id"],
+        ["name=tel", "name"],
+        ["css=#tel", "css:finder"],
+        ["xpath=//input[@id='tel']", "xpath:attributes"],
+        ["xpath=//form[@id='registration']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9bc7136-7a07-47a6-bece-9cedd83183b2",
+      "comment": "",
+      "command": "type",
+      "target": "id=tel",
+      "targets": [],
+      "value": "5340888443"
+    }, {
+      "id": "170659b1-3505-4a22-8ac7-f1620a427f06",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='registration']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b37e2e3-b3c0-4da7-83e4-f45437ffe643",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='registration']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "1234567"
+    }, {
+      "id": "081f44ba-ae31-42e0-8f04-1c940ed353ef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.checkbox",
+      "targets": [
+        ["css=.checkbox", "css:finder"],
+        ["xpath=//form[@id='registration']/div[5]/label", "xpath:idRelative"],
+        ["xpath=//div[5]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14b78d62-9d05-41e6-bb3c-9e135725992b",
+      "comment": "",
+      "command": "click",
+      "target": "id=accept_privacy_agreement",
+      "targets": [
+        ["id=accept_privacy_agreement", "id"],
+        ["name=tos", "name"],
+        ["css=#accept_privacy_agreement", "css:finder"],
+        ["xpath=//input[@id='accept_privacy_agreement']", "xpath:attributes"],
+        ["xpath=//form[@id='registration']/div[5]/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a4a3ee8-30c6-4b04-aec4-70d76cb1e855",
+      "comment": "",
+      "command": "click",
+      "target": "id=registerBtn",
+      "targets": [
+        ["id=registerBtn", "id"],
+        ["css=#registerBtn", "css:finder"],
+        ["xpath=//button[@id='registerBtn']", "xpath:attributes"],
+        ["xpath=//form[@id='registration']/div[8]/button", "xpath:idRelative"],
+        ["xpath=//div[8]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'HEMEN ÜYE OL')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "37483f97-a86c-4cb0-a31a-84a10fedea2e",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ffded9d-185a-450d-a55c-2210be2d91c0",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1ffa1fd9-4424-46aa-9440-b1ca08bda357",
+    "name": "LoginSuccess",
+    "commands": [{
+      "id": "76168f43-ba1a-4426-9b1c-fa27b7a617d9",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.vivense.com/vivense-uye-girisi.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1f10bb75-4ef5-4aaf-ae37-c53496089736",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a5ba8568-fb24-4fdd-a792-c78bf6e0faa8",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginEmail",
+      "targets": [
+        ["id=loginEmail", "id"],
+        ["name=username", "name"],
+        ["css=#loginEmail", "css:finder"],
+        ["xpath=//input[@id='loginEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b85fb83-e695-460e-aa24-843c142ef793",
+      "comment": "",
+      "command": "type",
+      "target": "id=loginEmail",
+      "targets": [
+        ["id=loginEmail", "id"],
+        ["name=username", "name"],
+        ["css=#loginEmail", "css:finder"],
+        ["xpath=//input[@id='loginEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "dogatankarabiga@gmail.com"
+    }, {
+      "id": "86c40b15-c86d-437f-870c-9bea81547a61",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginPassword",
+      "targets": [
+        ["id=loginPassword", "id"],
+        ["name=password", "name"],
+        ["css=#loginPassword", "css:finder"],
+        ["xpath=//input[@id='loginPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9104a9e4-f4af-4bd1-add0-2213903a927d",
+      "comment": "",
+      "command": "type",
+      "target": "id=loginPassword",
+      "targets": [
+        ["id=loginPassword", "id"],
+        ["name=password", "name"],
+        ["css=#loginPassword", "css:finder"],
+        ["xpath=//input[@id='loginPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Di1234567"
+    }, {
+      "id": "5bd07fef-0d16-4e9e-937f-f7088cee6e40",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active > .fa",
+      "targets": [
+        ["css=.active > .fa", "css:finder"],
+        ["xpath=//form[@id='loginForm']/div[2]/span", "xpath:idRelative"],
+        ["xpath=//form/div[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fb5ecb2-1fad-4b8c-9900-3f54922079a0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.user-register-button",
+      "targets": [
+        ["css=.user-register-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'GİRİŞ YAP')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0b3707f-7c41-49ea-9e00-720de80b9a3a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.middle_header_wrapper:nth-child(2) .shortcut_column:nth-child(2) .shortcut_text",
+      "targets": [
+        ["css=.middle_header_wrapper:nth-child(2) .shortcut_column:nth-child(2) .shortcut_text", "css:finder"],
+        ["xpath=//div[2]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Hesabım')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f639fcc5-5b82-4871-9f4a-f263b104a404",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.middle_header_wrapper:nth-child(2) .shortcut_column:nth-child(2) .shortcut_text",
+      "targets": [
+        ["css=.middle_header_wrapper:nth-child(2) .shortcut_column:nth-child(2) .shortcut_text", "css:finder"],
+        ["xpath=//div[2]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Hesabım')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "31d71978-0061-48b8-8b7e-502fd54aa8f5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Çıkış Yap",
+      "targets": [
+        ["linkText=Çıkış Yap", "linkText"],
+        ["css=.middle_header_wrapper:nth-child(2) .logoutLink", "css:finder"],
+        ["xpath=//a[contains(text(),'Çıkış Yap')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.vivense.com/index.php?option=com_users&task=user.logout&9ee1010e04b25248b59acf448250b62a=1&9ee1010e04b25248b59acf448250b62a=1')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Çıkış Yap')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d72389e2-9a39-4575-9d88-ccac10f18345",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b404c043-12c8-4d21-bc69-664f8a43f35c",
+    "name": "LoginFail1",
+    "commands": [{
+      "id": "36f06aff-ea08-4738-bff8-a3182217c38e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.vivense.com/vivense-uye-girisi.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3786f9cd-2362-4e21-b41b-f0bb96737fdb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1058x804",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "23b99526-0da4-4f48-be4f-826d3e417162",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginEmail",
+      "targets": [
+        ["id=loginEmail", "id"],
+        ["name=username", "name"],
+        ["css=#loginEmail", "css:finder"],
+        ["xpath=//input[@id='loginEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d97707b-8a5e-4ec2-8a17-ad7136953a6f",
+      "comment": "",
+      "command": "type",
+      "target": "id=loginEmail",
+      "targets": [
+        ["id=loginEmail", "id"],
+        ["name=username", "name"],
+        ["css=#loginEmail", "css:finder"],
+        ["xpath=//input[@id='loginEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "dogatankarabiga@gmail.com"
+    }, {
+      "id": "52f1d38a-dc26-427b-8c9a-48b0b02ea915",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginPassword",
+      "targets": [
+        ["id=loginPassword", "id"],
+        ["name=password", "name"],
+        ["css=#loginPassword", "css:finder"],
+        ["xpath=//input[@id='loginPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b58363a9-fb95-4333-ab87-19e4742b8d39",
+      "comment": "",
+      "command": "type",
+      "target": "id=loginPassword",
+      "targets": [
+        ["id=loginPassword", "id"],
+        ["name=password", "name"],
+        ["css=#loginPassword", "css:finder"],
+        ["xpath=//input[@id='loginPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "1234567"
+    }, {
+      "id": "f6455dde-2ec2-4503-8689-e0c8a05ec549",
+      "comment": "",
+      "command": "click",
+      "target": "css=.user-register-button",
+      "targets": [
+        ["css=.user-register-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'GİRİŞ YAP')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ef1a052-72da-4150-ab0e-fb20a4d937d8",
+      "comment": "",
+      "command": "pause",
+      "target": "5000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03c1d2d5-8478-4430-8f15-f3aa15f27955",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "690f209a-c7ad-41be-b8cd-27d893346896",
+    "name": "LoginFail2",
+    "commands": [{
+      "id": "83630513-efde-4e39-af42-9f381a79c18a",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.vivense.com/vivense-uye-girisi.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "93680972-a7fc-4b42-b6b8-76a9a842a8ba",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1058x804",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5bb54a6b-d9b4-4e20-a996-6d6c1c51c599",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginEmail",
+      "targets": [
+        ["id=loginEmail", "id"],
+        ["name=username", "name"],
+        ["css=#loginEmail", "css:finder"],
+        ["xpath=//input[@id='loginEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ea14896-0c38-47ab-b11b-7739a87e37ae",
+      "comment": "",
+      "command": "type",
+      "target": "id=loginEmail",
+      "targets": [
+        ["id=loginEmail", "id"],
+        ["name=username", "name"],
+        ["css=#loginEmail", "css:finder"],
+        ["xpath=//input[@id='loginEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "doga@gmail.com"
+    }, {
+      "id": "349d3ad0-6033-44c6-b892-a61ea063dcbc",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginPassword",
+      "targets": [
+        ["id=loginPassword", "id"],
+        ["name=password", "name"],
+        ["css=#loginPassword", "css:finder"],
+        ["xpath=//input[@id='loginPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da743da0-7824-4cab-a8ea-c10c5aa89735",
+      "comment": "",
+      "command": "type",
+      "target": "id=loginPassword",
+      "targets": [
+        ["id=loginPassword", "id"],
+        ["name=password", "name"],
+        ["css=#loginPassword", "css:finder"],
+        ["xpath=//input[@id='loginPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Di1234567"
+    }, {
+      "id": "e50368e6-20e4-4534-ad9f-b836a1422509",
+      "comment": "",
+      "command": "click",
+      "target": "css=.user-register-button",
+      "targets": [
+        ["css=.user-register-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'GİRİŞ YAP')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d60ceddb-80ff-460f-85d7-bd3bd3cbce76",
+      "comment": "",
+      "command": "click",
+      "target": "css=.container",
+      "targets": [
+        ["css=.container", "css:finder"],
+        ["xpath=//div[5]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d315115-c9d5-45e5-bcce-721865dbaf71",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d023f627-2007-4a17-8602-9285ab888e18",
+    "name": "LoginFail3",
+    "commands": [{
+      "id": "0e286c8c-4bd1-4dcf-87c1-0945fb1474d0",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.vivense.com/vivense-uye-girisi.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "addea626-ff1f-4d36-baef-77dc0b6d89ab",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1058x804",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cec0bc48-78e7-40e7-8c83-29e18b9c4379",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginEmail",
+      "targets": [
+        ["id=loginEmail", "id"],
+        ["name=username", "name"],
+        ["css=#loginEmail", "css:finder"],
+        ["xpath=//input[@id='loginEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4faf6323-d0d6-4ecf-b568-6a9154e1ecd3",
+      "comment": "",
+      "command": "type",
+      "target": "id=loginEmail",
+      "targets": [
+        ["id=loginEmail", "id"],
+        ["name=username", "name"],
+        ["css=#loginEmail", "css:finder"],
+        ["xpath=//input[@id='loginEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "doga@gmail.com"
+    }, {
+      "id": "107539d8-46de-4023-84c2-91027aeaa346",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginPassword",
+      "targets": [
+        ["id=loginPassword", "id"],
+        ["name=password", "name"],
+        ["css=#loginPassword", "css:finder"],
+        ["xpath=//input[@id='loginPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d99b133-da2b-4a14-84fb-c3be7e248424",
+      "comment": "",
+      "command": "type",
+      "target": "id=loginPassword",
+      "targets": [
+        ["id=loginPassword", "id"],
+        ["name=password", "name"],
+        ["css=#loginPassword", "css:finder"],
+        ["xpath=//input[@id='loginPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "1234567"
+    }, {
+      "id": "0cc027fe-7d7a-4cd0-8d3b-0d046db482aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.user-register-button",
+      "targets": [
+        ["css=.user-register-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'GİRİŞ YAP')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "00fbe91b-84f4-4df0-949d-6f61f1235967",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4bfd0176-63e9-4d77-b788-4ce0400daf98",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "2a1944c2-6398-476a-87e2-d00e3405a939",
+    "name": "addBasketMultiple",
+    "commands": [{
+      "id": "2e102163-4715-44db-ae5e-5745d0736984",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.vivense.com/favorilerim.html?ref=header_icon",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f34eb121-a691-409e-9f5b-1e7a33967fed",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1060x804",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d917729-d3ad-44ca-b9ce-9261defd7cff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-card:nth-child(1) img",
+      "targets": [
+        ["css=.product-card:nth-child(1) img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://img.vivense.com/480x320/images/4bf97b133eea4b63bf81adbcf6a8577b.jpg')]", "xpath:img"],
+        ["xpath=//div/div/div/div/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "352874f6-1202-4ba1-b2c2-a0f387d41359",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=SEPETE EKLE",
+      "targets": [
+        ["linkText=SEPETE EKLE", "linkText"],
+        ["css=.add-to-cart-btn", "css:finder"],
+        ["xpath=//a[contains(text(),'SEPETE EKLE')]", "xpath:link"],
+        ["xpath=//div[@id='sidebar-right']/div/div/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div/div/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'SEPETE EKLE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e88ebec-7c54-4975-a0d1-e575581c4f41",
+      "comment": "",
+      "command": "click",
+      "target": "css=.headerMyFavoriteLink > img",
+      "targets": [
+        ["css=.headerMyFavoriteLink > img", "css:finder"],
+        ["xpath=(//img[@alt='Vivense'])[3]", "xpath:img"],
+        ["xpath=//div[3]/ul/li[3]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fedca1da-010f-4f0c-986a-9aaa56649df4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-card:nth-child(2) img",
+      "targets": [
+        ["css=.product-card:nth-child(2) img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://img.vivense.com/480x320/images/0d0a2b4260bd4e8693fd142b6f042e6e.jpg')]", "xpath:img"],
+        ["xpath=//div[2]/div/div/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f19004f4-ac93-4a9b-ba1f-33c5c0c9d35b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ws_cover > a",
+      "targets": [
+        ["css=.ws_cover > a", "css:finder"],
+        ["xpath=//div[@id='wowslider-container1']/div[2]/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://img.vivense.com/1920x1280/images/0d0a2b4260bd4e8693fd142b6f042e6e.jpg')])[2]", "xpath:href"],
+        ["xpath=//div/div/div/div/div[2]/div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0fc1d07-74e8-435e-92ae-f3dd873aebf4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=SEPETE EKLE",
+      "targets": [
+        ["linkText=SEPETE EKLE", "linkText"],
+        ["css=.add-to-cart-btn", "css:finder"],
+        ["xpath=//a[contains(text(),'SEPETE EKLE')]", "xpath:link"],
+        ["xpath=//div[@id='sidebar-right']/div/div/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div/div/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'SEPETE EKLE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ef74f49-8058-4ea4-8c25-966249d84818",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-count",
+      "targets": [
+        ["css=.product-count", "css:finder"],
+        ["xpath=//h2[@id='cart_total_products']/span[2]", "xpath:idRelative"],
+        ["xpath=//h2/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'(2 ürün)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c991d52a-8eed-4d98-a4ad-8545425055ca",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.product-count",
+      "targets": [
+        ["css=.product-count", "css:finder"],
+        ["xpath=//h2[@id='cart_total_products']/span[2]", "xpath:idRelative"],
+        ["xpath=//h2/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'(2 ürün)')]", "xpath:innerText"]
+      ],
+      "value": "5000"
+    }, {
+      "id": "2b931694-b0e3-4fa2-a186-6cedc5e9f2a4",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.product-count",
+      "targets": [
+        ["css=.product-count", "css:finder"],
+        ["xpath=//h2[@id='cart_total_products']/span[2]", "xpath:idRelative"],
+        ["xpath=//h2/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'(2 ürün)')]", "xpath:innerText"]
+      ],
+      "value": "(2 ürün)"
+    }, {
+      "id": "3005ae69-3505-44fa-972c-10c268f1731d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "8d17b4c9-2ea4-49ec-9658-86d77000a7df",
+    "name": "emptyBasket",
+    "commands": [{
+      "id": "273fab09-f327-4341-a0d0-f039b4d21e0e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.vivense.com/siparis-listesi.html?ref=header_icon",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "995d2eda-4555-42e3-9717-1c08c9466b64",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1060x804",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "db4ae75c-2efb-4171-8d71-ebfc897925ac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.empty-cart-container",
+      "targets": [
+        ["css=.empty-cart-container", "css:finder"],
+        ["xpath=//div[9]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "197dafca-3299-46e0-b92d-2f2c83db2d3a",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.empty-cart-container",
+      "targets": [
+        ["css=.empty-cart-container", "css:finder"],
+        ["xpath=//div[9]/div/div/div", "xpath:position"]
+      ],
+      "value": "5000"
+    }, {
+      "id": "0bc44e29-8dca-4146-9fea-da0c0f95fb9f",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.empty-cart-container > h4",
+      "targets": [
+        ["css=.empty-cart-container > h4", "css:finder"],
+        ["xpath=//div[9]/div/div/div/h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'SEPETİNİZDE HENÜZ HİÇ ÜRÜN YOK!')]", "xpath:innerText"]
+      ],
+      "value": "SEPETİNİZDE HENÜZ HİÇ ÜRÜN YOK!"
+    }, {
+      "id": "6d508d09-9861-4078-b9ff-19ceb10d5b13",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=ALIŞVERİŞE BAŞLA",
+      "targets": [
+        ["linkText=ALIŞVERİŞE BAŞLA", "linkText"],
+        ["css=.cart-approve-btn > a", "css:finder"],
+        ["xpath=//a[contains(text(),'ALIŞVERİŞE BAŞLA')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/index.php')])[3]", "xpath:href"],
+        ["xpath=//div[9]/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'ALIŞVERİŞE BAŞLA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea870e32-9c48-41d0-9396-0952b6204faf",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "18f4529f-947a-4072-9f46-7f54779e2173",
+    "name": "addFavorites",
+    "commands": [{
+      "id": "f04d108e-1a3b-49cd-91cd-e47222558422",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.vivense.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2a7b86ab-67f4-48a1-ab74-e2955c86c56c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d47566cf-6d35-46c2-b065-40b6e5ac397d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(1) .top_header_inner_right_text:nth-child(2)",
+      "targets": [
+        ["css=li:nth-child(1) .top_header_inner_right_text:nth-child(2)", "css:finder"],
+        ["xpath=//div[2]/ul/li/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "189357d6-800a-4f1a-8884-0efed1362eda",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=BAHÇE",
+      "targets": [
+        ["linkText=BAHÇE", "linkText"],
+        ["css=.main_category_list:nth-child(6) > .main_category_name", "css:finder"],
+        ["xpath=//a[contains(text(),'BAHÇE')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/bahce-mobilyalari.html?ref=menu_header')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'BAHÇE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e99e4677-b6f1-47c5-97cb-d443bb1e40d5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=BAHÇE",
+      "targets": [
+        ["linkText=BAHÇE", "linkText"],
+        ["css=.main_category_list:nth-child(6) > .main_category_name", "css:finder"],
+        ["xpath=//a[contains(text(),'BAHÇE')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/bahce-mobilyalari.html?ref=menu_header')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'BAHÇE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "05d2761a-6f90-48d0-a750-08e002544362",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,600)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a16bd66a-c846-4d13-892c-98172dc91022",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.product-card:nth-child(2) .favorite-icon",
+      "targets": [
+        ["css=.product-card:nth-child(2) .favorite-icon", "css:finder"],
+        ["xpath=//div[@id='product-list-wrapper']/div/div/div[2]/div[2]/a/div/div[4]/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/a/div/div[4]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "70ef31ec-eef6-4e34-a0e6-65b0319b94d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-card:nth-child(2) .favorite-icon",
+      "targets": [
+        ["css=.product-card:nth-child(2) .favorite-icon", "css:finder"],
+        ["xpath=//div[@id='product-list-wrapper']/div/div/div[2]/div[2]/a/div/div[4]/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/a/div/div[4]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d273556c-64e6-41c8-9db8-6676e804eb60",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.product-card:nth-child(2) .favorite-icon",
+      "targets": [
+        ["css=.product-card:nth-child(2) .favorite-icon", "css:finder"],
+        ["xpath=//div[@id='product-list-wrapper']/div/div/div[2]/div[2]/a/div/div[4]/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/a/div/div[4]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8dee2dba-b1ba-459d-a91d-4369777ca123",
+      "comment": "",
+      "command": "click",
+      "target": "css=.my-favorites-container > .shortcut_text",
+      "targets": [
+        ["css=.my-favorites-container > .shortcut_text", "css:finder"],
+        ["xpath=//div[3]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Favorilerim')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "77f7fabf-f459-4500-8df3-98c94876ba01",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.my-favorites-container > .shortcut_text",
+      "targets": [
+        ["css=.my-favorites-container > .shortcut_text", "css:finder"],
+        ["xpath=//div[3]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Favorilerim')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "61d10a9d-51aa-477b-865c-0c613aed22f8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.my-favorites-container > .shortcut_text",
+      "targets": [
+        ["css=.my-favorites-container > .shortcut_text", "css:finder"],
+        ["xpath=//div[3]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Favorilerim')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd0a621b-f32d-4ad8-bee7-6c9ef3ff38c7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.contentBlock",
+      "targets": [
+        ["css=.contentBlock", "css:finder"],
+        ["xpath=//div[9]/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c210d369-783b-4a69-95fc-2b5de5418f67",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.pageWrapper",
+      "targets": [
+        ["css=.pageWrapper", "css:finder"],
+        ["xpath=//div[9]/div/div/div[2]/div/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": "3000"
+    }, {
+      "id": "6e13a964-6c73-4f02-ba15-715cb7671a0e",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.product-card",
+      "targets": [
+        ["css=.product-card", "css:finder"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": "Toscana İpli Bahçe Takımı, Cappuccino\\n8379 TL"
+    }, {
+      "id": "1885ed88-ce9b-4b36-92ed-01f87c9d2e90",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "674c932f-1ed2-4966-98b6-c06eeea298ab",
+    "name": "emptyFavorites",
+    "commands": [{
+      "id": "8f8cd3a1-1137-4d9a-833e-6f4fd8dd1d0f",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.vivense.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "69766eba-5596-44ad-9ac9-5ffca4a1cf92",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1064x808",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8c67a8bc-5b03-489f-a29d-c5873d48b0df",
+      "comment": "",
+      "command": "click",
+      "target": "css=.headerMyFavoriteLink > img",
+      "targets": [
+        ["css=.headerMyFavoriteLink > img", "css:finder"],
+        ["xpath=(//img[@alt='Vivense'])[3]", "xpath:img"],
+        ["xpath=//div[3]/ul/li[3]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37149795-69e5-4710-8e0a-e76ccc79e942",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fav-title > h3",
+      "targets": [
+        ["css=.fav-title > h3", "css:finder"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'BEĞENDİĞİN ÜRÜNLERİ FAVORİLERİNE EKLE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7211c1fd-a3bb-46e6-b26b-5835743e7da5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fav-title > h3",
+      "targets": [
+        ["css=.fav-title > h3", "css:finder"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'BEĞENDİĞİN ÜRÜNLERİ FAVORİLERİNE EKLE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c55f9e64-5d90-4ad5-8a00-4e29fc6d0820",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.fav-title > h3",
+      "targets": [
+        ["css=.fav-title > h3", "css:finder"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'BEĞENDİĞİN ÜRÜNLERİ FAVORİLERİNE EKLE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "93b655f3-30ca-4cd2-8ae1-4925e4b972ef",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.fav-title > h3",
+      "targets": [
+        ["css=.fav-title > h3", "css:finder"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'BEĞENDİĞİN ÜRÜNLERİ FAVORİLERİNE EKLE')]", "xpath:innerText"]
+      ],
+      "value": "5000"
+    }, {
+      "id": "5e55736a-b6d8-47fb-ac54-83bbd666fd8a",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.fav-title > h3",
+      "targets": [
+        ["css=.fav-title > h3", "css:finder"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'BEĞENDİĞİN ÜRÜNLERİ FAVORİLERİNE EKLE')]", "xpath:innerText"]
+      ],
+      "value": "BEĞENDİĞİN ÜRÜNLERİ FAVORİLERİNE EKLE"
+    }, {
+      "id": "fbf3f5ca-b4c8-4b44-96d3-3981b9599c4c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "33b09d42-6373-4db1-bdca-97c0464a2e53",
+    "name": "searchProductFail",
+    "commands": [{
+      "id": "626878ef-4ae4-4c08-bf8d-a33fec0f5f23",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.vivense.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ca81c171-6c78-4eae-9f7c-19002b5e0108",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1070x812",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d38a6833-9a3f-4b58-93fe-63ee4f893aff",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-suggestion-mobile",
+      "targets": [
+        ["id=search-suggestion-mobile", "id"],
+        ["css=#search-suggestion-mobile", "css:finder"],
+        ["xpath=//input[@id='search-suggestion-mobile']", "xpath:attributes"],
+        ["xpath=//div[2]/form/div/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "282d8862-f2ed-47b0-99a6-52356c0594c6",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-suggestion-mobile",
+      "targets": [
+        ["id=search-suggestion-mobile", "id"],
+        ["css=#search-suggestion-mobile", "css:finder"],
+        ["xpath=//input[@id='search-suggestion-mobile']", "xpath:attributes"],
+        ["xpath=//div[2]/form/div/span/input", "xpath:position"]
+      ],
+      "value": "cüzdan"
+    }, {
+      "id": "a40add46-03e0-4cd8-b50f-2ab860895f4a",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search-suggestion-mobile",
+      "targets": [
+        ["id=search-suggestion-mobile", "id"],
+        ["css=#search-suggestion-mobile", "css:finder"],
+        ["xpath=//input[@id='search-suggestion-mobile']", "xpath:attributes"],
+        ["xpath=//div[2]/form/div/span/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "ae1667e0-89b6-4a3f-a81f-a2fe408a48f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.recommender-block-title",
+      "targets": [
+        ["css=.recommender-block-title", "css:finder"],
+        ["xpath=//div[@id='product-list-wrapper']/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div[2]/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ceb4f67-c866-403c-a691-a96080271eed",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.recommender-block-title",
+      "targets": [
+        ["css=.recommender-block-title", "css:finder"],
+        ["xpath=//div[@id='product-list-wrapper']/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div[2]/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "3000"
+    }, {
+      "id": "27530348-5825-4407-aa25-c19bcbf65094",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.recommender-block-title",
+      "targets": [
+        ["css=.recommender-block-title", "css:finder"],
+        ["xpath=//div[@id='product-list-wrapper']/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div[2]/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "İLGINI ÇEKEBILECEK ÜRÜNLER"
+    }, {
+      "id": "e69507db-efd4-4a3a-96d0-815598e6c0d3",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "5cb0f7e3-3f4e-422a-8591-ee4a1a77d542",
+    "name": "registerFail1",
+    "commands": [{
+      "id": "92d73a96-990f-48a2-b8c3-6cf638ab5f2e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.vivense.com/vivense-uye-kayit.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "edccc556-6eb3-49f9-a8ec-383129e3375e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1070x812",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4aac92c3-83da-42d5-8016-be10cc775faf",
+      "comment": "",
+      "command": "click",
+      "target": "id=firstname",
+      "targets": [
+        ["id=firstname", "id"],
+        ["name=firstname", "name"],
+        ["css=#firstname", "css:finder"],
+        ["xpath=//input[@id='firstname']", "xpath:attributes"],
+        ["xpath=//form[@id='registration']/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e13fcc1-3c9c-4294-9801-3d56de68fdcf",
+      "comment": "",
+      "command": "type",
+      "target": "id=firstname",
+      "targets": [
+        ["id=firstname", "id"],
+        ["name=firstname", "name"],
+        ["css=#firstname", "css:finder"],
+        ["xpath=//input[@id='firstname']", "xpath:attributes"],
+        ["xpath=//form[@id='registration']/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": "Doğa Tan"
+    }, {
+      "id": "8267dce2-cbe9-41dd-b4ac-97f429801ad2",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='registration']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b8250df-d6ce-4129-bc9d-48ac6991e828",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='registration']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[2]/input", "xpath:position"]
+      ],
+      "value": "dogatankarabiga@gmail.com"
+    }, {
+      "id": "d7a9ff6c-562b-4960-be05-4214e141cea9",
+      "comment": "",
+      "command": "click",
+      "target": "id=tel",
+      "targets": [
+        ["id=tel", "id"],
+        ["name=tel", "name"],
+        ["css=#tel", "css:finder"],
+        ["xpath=//input[@id='tel']", "xpath:attributes"],
+        ["xpath=//form[@id='registration']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b2bdcb4-2a39-4756-b063-321f34af9a57",
+      "comment": "",
+      "command": "type",
+      "target": "id=tel",
+      "targets": [],
+      "value": "5455171860"
+    }, {
+      "id": "f8a70049-c8ad-48af-8502-139a591ab713",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='registration']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ebde5de1-d632-4f37-923c-8b35cbcb70df",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='registration']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "bd8b3f05-8323-4787-b233-f9130f9f6446",
+      "comment": "",
+      "command": "click",
+      "target": "id=accept_privacy_agreement",
+      "targets": [
+        ["id=accept_privacy_agreement", "id"],
+        ["name=tos", "name"],
+        ["css=#accept_privacy_agreement", "css:finder"],
+        ["xpath=//input[@id='accept_privacy_agreement']", "xpath:attributes"],
+        ["xpath=//form[@id='registration']/div[5]/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd7d524e-901e-44e7-9dc0-7598f11e8fe2",
+      "comment": "",
+      "command": "click",
+      "target": "id=registerBtn",
+      "targets": [
+        ["id=registerBtn", "id"],
+        ["css=#registerBtn", "css:finder"],
+        ["xpath=//button[@id='registerBtn']", "xpath:attributes"],
+        ["xpath=//form[@id='registration']/div[8]/button", "xpath:idRelative"],
+        ["xpath=//div[8]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'HEMEN ÜYE OL')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf331125-0cc8-4fa9-82dc-62e30bfba7c9",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "c77dc2e2-6486-487c-a1b2-aeaa67b88e67",
+    "name": "registerFail2",
+    "commands": [{
+      "id": "d6930b3e-a2a5-4be8-8e07-172a1aa31eb5",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.vivense.com/vivense-uye-kayit.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8af052a4-1476-40ef-98ee-48b5d761422c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1070x812",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "345cb0a2-0a9f-4b70-9305-f8a40ed7b7f2",
+      "comment": "",
+      "command": "click",
+      "target": "id=firstname",
+      "targets": [
+        ["id=firstname", "id"],
+        ["name=firstname", "name"],
+        ["css=#firstname", "css:finder"],
+        ["xpath=//input[@id='firstname']", "xpath:attributes"],
+        ["xpath=//form[@id='registration']/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0007a39-f4d1-4e0a-ab04-32ae6fea105c",
+      "comment": "",
+      "command": "type",
+      "target": "id=firstname",
+      "targets": [
+        ["id=firstname", "id"],
+        ["name=firstname", "name"],
+        ["css=#firstname", "css:finder"],
+        ["xpath=//input[@id='firstname']", "xpath:attributes"],
+        ["xpath=//form[@id='registration']/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": "Doğa Tan"
+    }, {
+      "id": "ef26e211-d8f1-45ad-b9a0-a7fc3ec83ed3",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='registration']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6522c78-114d-4aa9-a207-4919183b0359",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='registration']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[2]/input", "xpath:position"]
+      ],
+      "value": "dogatankarabig@gmail.com"
+    }, {
+      "id": "34656776-e11b-43d2-828f-aeb5d16dce27",
+      "comment": "",
+      "command": "click",
+      "target": "id=tel",
+      "targets": [
+        ["id=tel", "id"],
+        ["name=tel", "name"],
+        ["css=#tel", "css:finder"],
+        ["xpath=//input[@id='tel']", "xpath:attributes"],
+        ["xpath=//form[@id='registration']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea61c73f-2383-4348-9db7-f9f3fb375b1b",
+      "comment": "",
+      "command": "type",
+      "target": "id=tel",
+      "targets": [],
+      "value": "5455171860"
+    }, {
+      "id": "e0fdca35-80ec-4983-a44e-9c03cbccd4cf",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='registration']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eaafc2b2-eeb6-4a13-845a-5f0e878ef4a6",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [],
+      "value": "123456"
+    }, {
+      "id": "95214f48-b8ef-4f1e-8e84-1d5997178b9e",
+      "comment": "",
+      "command": "verifyNotEditable",
+      "target": "id=registerBtn",
+      "targets": [
+        ["id=registerBtn", "id"],
+        ["css=#registerBtn", "css:finder"],
+        ["xpath=//button[@id='registerBtn']", "xpath:attributes"],
+        ["xpath=//form[@id='registration']/div[8]/button", "xpath:idRelative"],
+        ["xpath=//div[8]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'HEMEN ÜYE OL')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3a4cf3e-5cc9-4d36-802d-592a2578f345",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1fda1eaa-f08f-42ee-be5e-e57d687bcac1",
+    "name": "searchProduct",
+    "commands": [{
+      "id": "0e995745-a5e3-4142-85f1-9a85e514ac31",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.vivense.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f407d2dd-829a-475f-b34a-722fea7df9eb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1070x812",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af2a876c-c894-42ad-977f-e6750dcd0b6e",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-suggestion-mobile",
+      "targets": [
+        ["id=search-suggestion-mobile", "id"],
+        ["css=#search-suggestion-mobile", "css:finder"],
+        ["xpath=//input[@id='search-suggestion-mobile']", "xpath:attributes"],
+        ["xpath=//div[2]/form/div/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a77c373-2a88-426d-ba90-9e8df6b3cf5b",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-suggestion-mobile",
+      "targets": [
+        ["id=search-suggestion-mobile", "id"],
+        ["css=#search-suggestion-mobile", "css:finder"],
+        ["xpath=//input[@id='search-suggestion-mobile']", "xpath:attributes"],
+        ["xpath=//div[2]/form/div/span/input", "xpath:position"]
+      ],
+      "value": "ayna"
+    }, {
+      "id": "25b10b47-389f-4367-83ac-d72be0524953",
+      "comment": "",
+      "command": "click",
+      "target": "css=.personaclick-search-product:nth-child(2) .personaclick-search-product__name",
+      "targets": [
+        ["css=.personaclick-search-product:nth-child(2) .personaclick-search-product__name", "css:finder"],
+        ["xpath=//div[@id='personaclick_search_products']/div/div/div[2]/div[2]/a/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/a/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65941daa-f53f-430d-a2a1-b6fca48759ee",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=SEPETE EKLE",
+      "targets": [
+        ["linkText=SEPETE EKLE", "linkText"],
+        ["css=.add-to-cart-btn", "css:finder"],
+        ["xpath=//a[contains(text(),'SEPETE EKLE')]", "xpath:link"],
+        ["xpath=//div[@id='sidebar-right']/div/div/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div/div/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'SEPETE EKLE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "19e456af-a925-4aae-81b0-a9fab5752bec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-count",
+      "targets": [
+        ["css=.product-count", "css:finder"],
+        ["xpath=//h2[@id='cart_total_products']/span[2]", "xpath:idRelative"],
+        ["xpath=//h2/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'(1 ürün)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "75ab4aa2-953c-41a7-8aec-d3824c263f50",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.product-count",
+      "targets": [
+        ["css=.product-count", "css:finder"],
+        ["xpath=//h2[@id='cart_total_products']/span[2]", "xpath:idRelative"],
+        ["xpath=//h2/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'(1 ürün)')]", "xpath:innerText"]
+      ],
+      "value": "3000"
+    }, {
+      "id": "22e53d80-4d68-4db8-8baf-4f026295a292",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.product-count",
+      "targets": [
+        ["css=.product-count", "css:finder"],
+        ["xpath=//h2[@id='cart_total_products']/span[2]", "xpath:idRelative"],
+        ["xpath=//h2/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'(1 ürün)')]", "xpath:innerText"]
+      ],
+      "value": "(1 ürün)"
+    }, {
+      "id": "1766e1fa-dd73-4ee7-ad81-fc901267d3e3",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3ee5cca1-7bef-4d82-8cdb-b66f40cc6e57",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.vivense.com/vivense-uye-girisi.html", "https://www.vivense.com/bahce-mobilyalari.html?ref=menu_header", "https://www.vivense.com/bodrum-salincak-modeli.html", "https://www.vivense.com/vivense-uye-kayit.html", "https://www.vivense.com/favorilerim.html?ref=header_icon", "https://www.vivense.com/siparis-listesi.html?ref=header_icon", "https://www.vivense.com/", "https://www.vivense.com/ceremical-yukseklik-ayarli-laptop-sehpasi-modeli.html?recommended_by=instant_search&recommended_code=laptop%20masas%C4%B1"],
+  "plugins": []
+}
